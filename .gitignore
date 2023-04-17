@@ -112,3 +112,5 @@ prime/
 
 # Manpage
 /man
+/.vs/slnx.sqlite-journal
+/.vs
