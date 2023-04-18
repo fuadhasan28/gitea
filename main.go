@@ -52,9 +52,9 @@ func init() {
 
 func main() {
 	app := cli.NewApp()
-	app.Name = "Gitea"
+	app.Name = "Git-Station"
 	app.Usage = "A painless self-hosted Git service"
-	app.Description = `By default, gitea will start serving using the webserver with no
+	app.Description = `By default, git-station will start serving using the webserver with no
 arguments - which can alternatively be run by running the subcommand web.`
 	app.Version = Version + formatBuiltWith()
 	app.Commands = []cli.Command{
